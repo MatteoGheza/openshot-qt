@@ -35,7 +35,6 @@ except ImportError:
     from classes import cli_render
     print("Loaded modules from installed directory: %s" % info.PATH)
 
-
 def main():
 	bot = cli_render.Bot()
 	bot.render()
